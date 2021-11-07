@@ -2,6 +2,7 @@
 # source: example.proto
 # typed: strict
 
+
 module Example::Greeter
   class Service
     include GRPC::GenericService
@@ -27,3 +28,4 @@ module Example::Greeter
     end
   end
 end
+

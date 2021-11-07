@@ -2,6 +2,7 @@
 # source: services.proto
 # typed: strict
 
+
 module Testdata::SimpleMathematics
   class Service
     include GRPC::GenericService
@@ -77,3 +78,4 @@ module Testdata::ComplexMathematics
     end
   end
 end
+
